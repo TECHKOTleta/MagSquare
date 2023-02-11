@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagSquare", "MagSquare\MagSquare.csproj", "{F7979688-CE36-4398-A471-AF5A3979CD9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7979688-CE36-4398-A471-AF5A3979CD9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7979688-CE36-4398-A471-AF5A3979CD9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7979688-CE36-4398-A471-AF5A3979CD9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7979688-CE36-4398-A471-AF5A3979CD9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {616E4103-2159-4FC0-A38B-1652801FDE9E}
+	EndGlobalSection
+EndGlobal
