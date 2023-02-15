@@ -20,18 +20,14 @@ namespace MagSquare
     /// </summary>
     public partial class Tutorial : Window
     {
-        string name_global;
+
         int[] scores = new int[4];
-        
+        MainWindow dataWindow = new MainWindow();
         public Tutorial(string name)
         {
             InitializeComponent();
 
-            name_global= name;
-            scores[0] = 0;
-            scores[1] = 0;
-            scores[2] = 0;
-            scores[3] = 0;
+            dataWindow.name = name;
 
             Cl1_2.Visibility = Visibility.Hidden;
             Cl2_2.Visibility = Visibility.Hidden;
@@ -54,7 +50,6 @@ namespace MagSquare
 
         private void Next1_Click(object sender, RoutedEventArgs e)
         {
-            soft_show();
             Cl1_2.Visibility = Visibility.Visible;
             Cl2_2.Visibility = Visibility.Visible;
             Cl3_2.Visibility = Visibility.Visible;
@@ -80,14 +75,10 @@ namespace MagSquare
         {
             int hard = 1;
             Console.WriteLine(hard);
-            FirstStep firstStep = new FirstStep(hard, 0, name_global, scores);
+            FirstStep firstStep = new FirstStep(dataWindow);
             firstStep.Show();
             Close();
         }
 
-        void soft_show()
-        {
-
-        }
     }
 }

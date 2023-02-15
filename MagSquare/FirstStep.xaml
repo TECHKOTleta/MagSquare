@@ -25,6 +25,6 @@
         <TextBlock x:Name="Hint2" HorizontalAlignment="Left" Margin="405,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="47" Width="385" FontSize="24"/>
         <TextBlock x:Name="Lvl_t" HorizontalAlignment="Left" Margin="10,350,0,0" TextWrapping="Wrap" Text="УР: " VerticalAlignment="Top" Height="50" Width="85" FontSize="24"/>
         <TextBlock x:Name="Score_t" HorizontalAlignment="Left" Margin="705,349,0,0" TextWrapping="Wrap" Text="СЧ: " VerticalAlignment="Top" Height="50" Width="85" FontSize="24"/>
-        <TextBlock HorizontalAlignment="Left" Margin="400,299,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="50" Width="300" FontSize="18"><Run Text="Следующий уровень сложности будет доступен при счёте "/><Run Language="ru-ru" Text="3"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="400,299,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="50" Width="300" FontSize="18" TextAlignment="Right" Text="Следующий уровень сложности будет доступен при счёте 3"/>
     </Grid>
 </Window>

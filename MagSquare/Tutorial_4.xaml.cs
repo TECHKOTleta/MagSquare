@@ -16,21 +16,16 @@ using System.Xml.Linq;
 namespace MagSquare
 {
     /// <summary>
-    /// Логика взаимодействия для Tutorial_2.xaml
+    /// Логика взаимодействия для Tutorial_4.xaml
     /// </summary>
-    public partial class Tutorial_2 : Window
+    public partial class Tutorial_4 : Window
     {
-        string name_global;
-        int[] scores = new int[4];
-        public Tutorial_2(string name)
+        MainWindow dataWindow;
+        public Tutorial_4(MainWindow _dataWindow)
         {
             InitializeComponent();
 
-            name_global = name;
-            scores[0] = 0;
-            scores[1] = 0;
-            scores[2] = 0;
-            scores[3] = 0;
+            dataWindow= _dataWindow;
 
             Cl1_3.Visibility = Visibility.Hidden;
             Cl2_3.Visibility = Visibility.Hidden;
@@ -67,8 +62,8 @@ namespace MagSquare
         {
             int hard = 1;
             Console.WriteLine(hard);
-            SecondStep secondStep = new SecondStep(hard, 0, name_global, scores);
-            secondStep.Show();
+            FourthStep fourthStep = new FourthStep(dataWindow);
+            fourthStep.Show();
             Close();
         }
     }
